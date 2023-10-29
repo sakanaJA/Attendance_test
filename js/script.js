@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
 document.getElementById('login-button').addEventListener('click', function() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
@@ -29,4 +30,6 @@ document.getElementById('login-button').addEventListener('click', function() {
         alert('メールアドレスとパスワードを入力してください。');
     }
 });
+ 
+
 

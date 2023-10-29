@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Page</title>
+    <title>勤怠管理</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -15,13 +15,20 @@
             
         </div>
         <div class="buttons">
-            <button>出勤</button>
+            <button id="shyukkin">出勤</button>
             <button>退勤</button>
             <button>開始</button>
             <button>終了</button>
             <button>終了</button>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script>       // 出勤ボタンの要素を取得
+        const shyukkinButton = document.getElementById('shyukkin');
+
+        // 出勤ボタンにクリックイベントリスナを設定
+        shyukkinButton.addEventListener('click', function() {
+            // アラートを表示
+            alert('出勤しました！');
+        });</script>
 </body>
 </html>
